@@ -366,18 +366,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Skills
 --------------------------------------------------------------*/
-.facts {
+.skills {
   padding-bottom: 30px;
 }
 
-.facts .count-box {
+.skills .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.skills .count-box img {
   display: block;
   font-size: 44px;
   color: #149ddd;
@@ -385,7 +385,7 @@ section {
   line-height: 0;
 }
 
-.facts .count-box span {
+.skills .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -394,7 +394,7 @@ section {
   margin-left: 60px;
 }
 
-.facts .count-box p {
+.skills .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -402,7 +402,7 @@ section {
   color: #122f57;
 }
 
-.facts .count-box a {
+.skills .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -412,47 +412,14 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.skills .count-box a:hover {
   color: #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+.skill-img {
+  height: 50px;
+  width: 50px;
 }
-
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
-}
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
